@@ -32,10 +32,6 @@ This project is a Facial Biometric Attendance System designed for real-time and 
    python main.py
    ```
 
-## Project Screenshot
-![Project Screenshot](image-path.png)
-
-> Replace `image-path.png` with the actual path of your uploaded image in the repository.
 
 ## Contributing
 Feel free to submit issues or pull requests to enhance the project.
