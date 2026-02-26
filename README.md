@@ -25,22 +25,26 @@ The system supports:
 
 ## System Architecture.
 
+## System Architecture
+
+```
 Face-Recognition/
 │
-├── img/ (Face database)
-├── models/ (Deep learning models)
+├── img/                  (Face database)
+├── models/               (Deep learning models)
 ├── src/
-│ ├── main.cpp (Production attendance mode)
-│ ├── main_test.cpp (Testing & auto-fill mode)
-│ ├── main_training.cpp (Threshold tuning mode)
-│ ├── TRetina.cpp (RetinaFace detector)
-│ ├── TMtCNN.cpp (MTCNN detector)
-│ ├── TArcface.cpp (ArcFace embedding extractor)
-│ ├── TWarp.cpp (Face alignment)
-│ ├── TLive.cpp (Anti-spoofing / liveness)
-│ ├── TBlur.cpp (Blur detection)
+│   ├── main.cpp          (Production attendance mode)
+│   ├── main_test.cpp     (Testing & auto-fill mode)
+│   ├── main_training.cpp (Threshold tuning mode)
+│   ├── TRetina.cpp       (RetinaFace detector)
+│   ├── TMtCNN.cpp        (MTCNN detector)
+│   ├── TArcface.cpp      (ArcFace embedding extractor)
+│   ├── TWarp.cpp         (Face alignment)
+│   ├── TLive.cpp         (Anti-spoofing / liveness)
+│   ├── TBlur.cpp         (Blur detection)
 │
-└── include/ (Header files)
+└── include/              (Header files)
+```
 
 
 ---
